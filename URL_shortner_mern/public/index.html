@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  
+    <link rel="stylesheet" href="./normalize.css" />
+  
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <title>Short_Ner Manager || Final</title>
+  </head>
+  <body>
+    <form class="shortNer-form">
+      <h4>URL Shortener</h4>
+      <div class="form-control">
+        <input
+          type="text"
+          name="name"
+          class="shortNer-input"
+          id="name-cont"
+          placeholder="Enter the URL here"
+        />
+        <div><br /></div>
+        <input
+          type="text"
+          name="notess"
+          id="notess-cont"
+          class="shortNer-input"
+          placeholder="Enter notes for better search"
+        />
+        <div><br /></div>
+
+        <button type="submit" class="btn submit-btn">submit</button>
+      </div>
+      <div class="form-alert"></div>
+    </form>
+    <div><br /></div>
+    <div class="search-container">
+      <input
+        type="text"
+        name="search"
+        placeholder="Search..."
+        class="search-input"
+      />
+      <a class="search-btn">
+        <i class="fas fa-search"></i>
+      </a>
+    </div>
+    <div class="search-results"></div>
+    
+    <section class="shortNers-container">
+      <p class="loading-text">Loading...</p>
+      <div class="upperHeader"></div>
+      <div class="shortNers"></div>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./browser-app.js"></script>
+  </body>
+</html>
