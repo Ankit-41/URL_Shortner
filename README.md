@@ -56,11 +56,3 @@ Please ensure you have [Node.js](https://nodejs.org) and [npm](https://www.npmjs
 
 Contributions to the URL Shortener project are highly appreciated. If you encounter any issues, have suggestions for improvements, or would like to contribute new features, please feel free to open a pull request. Your contributions will help enhance the functionality and usability of the application.
 
-## License
-
-
-
-
-
-This project is licensed under the [MIT License](LICENSE).
-
