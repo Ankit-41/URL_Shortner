@@ -1,6 +1,8 @@
 # URL Shortener
 
 URL Shortener is a web application designed to simplify and streamline the process of generating shorter URLs. It allows users to create compact and easily shareable URLs for their long web addresses, making it convenient to share links across various platforms.
+
+
 ![full_view](https://github.com/Ankit-41/URL_Shortner/assets/98843149/41f0b8b8-2087-43b4-8d3b-ef747a1d5b4a)
 
 
@@ -16,8 +18,7 @@ URL Shortener is a web application designed to simplify and streamline the proce
 
 - Responsive Design: The URL Shortener is built with a responsive design approach, ensuring optimal performance and visual appeal across different screen sizes and devices. It offers a seamless user experience, whether accessed from larger desktop screens or smaller mobile devices.
 
-![Screenshot (100)](https://github.com/Ankit-41/URL_Shortner/assets/98843149/db8c742b-c969-4f2f-aede-a49b632c3e5b)
-![iphone_view](https://github.com/Ankit-41/URL_Shortner/assets/98843149/4faf369f-3b6f-4266-8660-2d644c15034e)
+![Screenshot (100)](https://github.com/Ankit-41/URL_Shortner/assets/98843149/db8c742b-c969-4f2f-aede-a49b632c3e5b)     ![iphone_view](https://github.com/Ankit-41/URL_Shortner/assets/98843149/4faf369f-3b6f-4266-8660-2d644c15034e)
 
 ## Getting Started
 
