@@ -1,4 +1,4 @@
-# URL Shortener
+# URL Shortener and Search optimisation
 
 URL Shortener is a web application designed to simplify and streamline the process of generating shorter URLs. It allows users to create compact and easily shareable URLs for their long web addresses, making it convenient to share links across various platforms.
 
