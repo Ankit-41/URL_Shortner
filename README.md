@@ -20,6 +20,21 @@ URL Shortener is a web application designed to simplify and streamline the proce
 
 ![Screenshot (100)](https://github.com/Ankit-41/URL_Shortner/assets/98843149/db8c742b-c969-4f2f-aede-a49b632c3e5b)     ![iphone_view](https://github.com/Ankit-41/URL_Shortner/assets/98843149/4faf369f-3b6f-4266-8660-2d644c15034e)
 
+
+## How It Works
+
+1. User Interface: When a user visits the webpage, they are presented with an input field where they can enter a long URL and add associated notes. After pressing the Enter key or the Submit button, the data is sent to the MongoDB database for storage.
+
+2. Database Storage: The entered URL and notes are stored in the MongoDB database. This ensures that the shortened URL and its associated information are securely saved for future reference.
+
+3. URL Shortening: The application uses the ShortID library to generate a unique and shortened URL for the entered long URL. This shortened URL is created using an algorithm that ensures uniqueness and maintainability.
+
+4. Click Tracking: Each time a user clicks on a shortened URL, the application increments the click count associated with that URL. This helps track the popularity and engagement level of the shared links.
+
+5. Advanced Search: The application provides a search feature implemented through a dedicated route in Node.js. Users can search for specific shortened URLs based on the long URL, short URL, or associated notes. The search functionality retrieves the relevant links from the MongoDB database and displays them to the user.
+
+6. URL Deletion: The application includes a route to delete a shortened URL based on its unique identifier (ID). Users can delete unwanted URLs from the database using this route, enhancing flexibility and organization.
+
 ## Getting Started
 
 To get started with the URL Shortener, follow the steps below:
